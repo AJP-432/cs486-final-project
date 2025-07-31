@@ -53,11 +53,7 @@ def visualize_model(model_name, total_timesteps):
 
 if __name__ == "__main__":
     models = ['A2C', 'PPO', 'DDPG']
-    total_timesteps = [
-        10_000, 
-        50_000, 
-        250_000
-    ]
+    total_timesteps = [10_000, 50_000, 250_000]
     for model_name in models:
         print(f"Visualizing {model_name} model...")
         for ts in total_timesteps:
