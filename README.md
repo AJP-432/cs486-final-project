@@ -1,4 +1,5 @@
-# CS 486 Final Research Project: Comparing RL Algorithms for Autonomous Parking 🅿️🚗
+# License to Drive: An RL Agent's First Parking Test
+*CS 486 Final Research Project: Comparing RL Algorithms for Autonomous Parking 🅿️🚗*
 
 This project trains and evaluates three different Reinforcement Learning algorithms (A2C, PPO, DDPG) on the `parking-v0` environment from `highway-env`.
 
