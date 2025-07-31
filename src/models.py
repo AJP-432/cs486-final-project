@@ -30,9 +30,9 @@ def _create_ppo_model(env):
     model = PPO(
         "MultiInputPolicy",
         env,
-        gamma=0.98,  # Discount factor
-        batch_size=256,  # Batch size for training
-        learning_rate=1e-3,  # Learning rate for the optimizer
+        gamma=0.98,         # discount factor
+        batch_size=256,     # batch size for training
+        learning_rate=1e-3, # learning rate for the optimizer
         verbose=1,
     )
     return model
@@ -47,9 +47,9 @@ def _create_ddpg_model(env):
         "MultiInputPolicy",
         env,
         action_noise=action_noise,
-        gamma=0.98,  # Discount factor
-        batch_size=256,  # Batch size for training
-        learning_rate=1e-3,  # Learning rate for the optimizer
+        gamma=0.98,         # discount factor
+        batch_size=256,     # batch size for training
+        learning_rate=1e-3, # learning rate for the optimizer
         verbose=1,
     )
     return model
@@ -58,9 +58,9 @@ def _create_a2c_model(env):
     model = A2C(
         "MultiInputPolicy",
         env,
-        gamma=0.98,  # Discount factor
-        n_steps=5,  # Number of steps to run for each environment per update
-        learning_rate=1e-3,  # Learning rate for the optimizer
+        gamma=0.98,         # discount factor
+        n_steps=5,          # number of steps to run for each environment per update
+        learning_rate=1e-3, # learning rate for the optimizer
         verbose=1,
     )
     return model
