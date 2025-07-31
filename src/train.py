@@ -13,14 +13,14 @@ def train_model(model_name, total_timesteps):
 
 def train():   
     models = [
+        'A2C',
         'PPO', 
-        # 'DDPG', 
-        # 'DQN'
+        'DDPG' 
     ]
     training_timestamps = [
         10_000, 
-        # 50_000, 
-        # 250_000
+        50_000, 
+        250_000
     ]
     
     for timestamp in training_timestamps:
