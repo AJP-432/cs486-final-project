@@ -1,3 +1,5 @@
+# By Ajlal Paracha and Alexander Matros
+
 # License to Drive: An RL Agent's First Parking Test
 *CS 486 Final Research Project: Comparing RL Algorithms for Autonomous Parking 🅿️🚗*
 
